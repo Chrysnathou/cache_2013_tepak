@@ -1,0 +1,14 @@
+RAM
+256
+CACHE
+128
+num_word
+4
+wordAnaBlock
+2
+way
+4
+Flash_Num
+0
+Arxitektoniki(1->DM, 2->FA, 3->SA)
+2
