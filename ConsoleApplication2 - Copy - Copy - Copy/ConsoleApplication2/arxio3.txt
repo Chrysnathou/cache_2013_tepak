@@ -1,0 +1,34 @@
+RAM
+1024
+CACHE
+128
+num_word
+2
+wordAnaBlock
+4
+way
+4
+Flash_Num
+5
+Arxitektoniki(1->DM, 2->FA, 3->SA)
+3
+Write_Allocate
+0
+No_Write_Allocate
+1
+Write_Back
+0
+Write_Through
+1
+Write_Cache
+5
+Write_Ram
+6
+Politikes Ekdio3eis(1->RANDOM,2->FIFO,3->LRU)
+3
+Victiim size
+10
+Bima
+128
+Maximum Cache
+256

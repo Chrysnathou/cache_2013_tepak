@@ -1,0 +1,41 @@
+﻿Build started 26/11/2013 4:47:14 μμ.
+     1>Project "C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\ConsoleApplication2\ConsoleApplication2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication2.cpp stdafx.cpp
+         stdafx.cpp
+         ConsoleApplication2.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(155): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(264): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(336): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(337): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(355): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(462): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(465): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(466): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(471): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(861): warning C4047: '=' : 'int' differs in levels of indirection from 'node *'
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(863): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(917): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(919): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(920): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(1481): warning C4047: '=' : 'int' differs in levels of indirection from 'node *'
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(1483): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(1583): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(1586): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(1587): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(2209): warning C4047: '=' : 'int' differs in levels of indirection from 'node *'
+     1>c:\users\maria\videos\consoleapplication2 - copy - copy - copy\consoleapplication2\source.c(2211): warning C4022: 'free' : pointer mismatch for actual parameter 1
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\Debug\ConsoleApplication2.lib" /MACHINE:X86 Debug\ConsoleApplication2.obj
+         Debug\Source.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+         ConsoleApplication2.vcxproj -> C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\Debug\ConsoleApplication2.exe
+     1>Done Building Project "C:\Users\Maria\Videos\ConsoleApplication2 - Copy - Copy - Copy\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
